@@ -1,0 +1,227 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:weightSum="1.0"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.3"
+
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingTop="50dp"
+            android:id="@+id/edittext"
+            android:focusableInTouchMode="false"
+            android:gravity="right"
+
+        />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="DEL"
+            android:textStyle="bold"
+            android:id="@+id/buttondel"
+            android:layout_below="@+id/edittext"
+            android:layout_alignRight="@+id/edittext"
+
+            />
+
+     </RelativeLayout>
+
+     <GridLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dip"
+         android:layout_weight="0.7"
+         android:columnCount="4"
+         android:rowCount="4"
+
+         >
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+
+             android:text="7"
+             android:textStyle="bold"
+             android:id="@+id/button7"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+
+             android:text="8"
+             android:textStyle="bold"
+             android:id="@+id/button8"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+
+             android:text="9"
+             android:textStyle="bold"
+             android:id="@+id/button9"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+
+             android:text="/"
+             android:textStyle="bold"
+             android:id="@+id/buttondiv"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="4"
+             android:textStyle="bold"
+             android:id="@+id/button4"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="5"
+             android:textStyle="bold"
+             android:id="@+id/button5"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="6"
+             android:textStyle="bold"
+             android:id="@+id/button6"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="*"
+             android:textStyle="bold"
+             android:id="@+id/buttonmul"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="1"
+             android:textStyle="bold"
+             android:id="@+id/button1"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="2"
+             android:textStyle="bold"
+             android:id="@+id/button2"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="3"
+             android:id="@+id/button3"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="-"
+             android:id="@+id/buttonsub"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="."
+             android:textStyle="bold"
+             android:id="@+id/buttondot"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="0"
+             android:textStyle="bold"
+             android:id="@+id/button0"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="="
+             android:textStyle="bold"
+             android:id="@+id/buttoneq"
+         />
+
+         <Button
+             android:layout_height="@dimen/gridbox"
+             android:layout_width="@dimen/gridbox"
+             android:background="#E5E4E2"
+             android:padding="5dp"
+             android:text="+"
+             android:textStyle="bold"
+             android:id="@+id/buttonadd"
+         />
+
+
+
+
+
+
+     </GridLayout>
+
+
+
+
+</LinearLayout>
